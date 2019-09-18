@@ -1,7 +1,7 @@
 <?php 
 include ("save_log.php");
 
-class AmoAuth extends LogEdit{
+class AmoAuth{
 
     public function authorize($subdomain, $login, $hash){
         $user = array(

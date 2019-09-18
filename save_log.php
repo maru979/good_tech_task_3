@@ -1,7 +1,7 @@
 <?php
 class LogEdit{
 
-    protected function writeLogs($logInfo){
+    public function writeLogs($logInfo){
         $dir = __DIR__."/modules/log/auth.log";
 
         if (!file_exists($dir)){
