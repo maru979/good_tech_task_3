@@ -42,7 +42,6 @@ class AmoAuth{
             $logInfo = date('Y-m-d H:i:s').' Successful authorization.';
         }
 
-        $log_edit = new LogEdit();
-        $log_edit->writeLogs($logInfo);
+        LogEdit::writeLogs($logInfo);
     }
 }
